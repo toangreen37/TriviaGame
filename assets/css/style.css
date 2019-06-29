@@ -1,0 +1,99 @@
+
+/* Page */
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    /* Footer rules */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+
+.header {
+    font-family: sans-serif;
+    color: white;
+    padding-right: 10px;
+}
+
+.header-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 10px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: green;
+}
+
+.start-img {
+    width: 55%;
+    height: auto;
+}
+
+
+
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: black;
+    border: green 4px solid;
+    background-color: transparent;
+}
+
+.btn:hover {
+    color: green;
+}
+
+/*Questions*/
+#questionSpace {
+    color: solid;
+}
+
+#question {
+    font-size: 20px;
+}
+
+/*Timer*/
+#timer {
+    color: #e74c3c;
+    font-size: 40px;
+}
+
+/* Answers */
+#choices {
+    font-size: 23px;
+}
+
+.pickAnswer {
+    border: solid 5px #fff;
+}
+
+.pickAnswer, .pickAnswer:hover {
+    display: block;
+    margin: 20px 0;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.pickAnswer:hover {
+    border: solid 5px green;
+    cursor: pointer;ß
+
+#buttonRow {
+    margin-top: 130px;
+}
+
+#imgFinal {
+    max-width: 100%;
+    height: auto;
+}

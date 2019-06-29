@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cycling Trivia Game</title>
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="jumbotron jumbo-win jumbo-lose">
+        <h2 class="header">Cycling Triva</h2>
+        <h5 class="header-text">A trivia game for speed demon.</h5> 
+    </div>
+
+    <div class="container main">
+        <section id="introSection">
+            <div class="row" id="imageRow">
+                <div class="col-xs-12  center-align">
+                    <img class="start-img center-block" src="./assets/images/introPic.jpg" alt="Cycling Picture" id="startImg">
+                </div>
+            <div class="row" id="buttonRow">
+                <div class="col-xs-12 center-align">
+                    <!--Game start btn-->
+                    <button class="btn btn-default center-block startButton" id="startButton">Play</button> 
+                </div>
+            </div>
+            <!-- Trivia questions -->
+            <section id="questionSpace" class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center" id="timer">
+                        <!--Timer will go here-->
+
+                    </div>
+                </div>
+                <div class="row" id="messageSection">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-body" id="gameMessage">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 center-align"> 
+                        <div class="panel panel-default">
+                            <div class="panel-body" id="questionContainer">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 center-align">
+                        <div class="panel panel-default">
+                            <div class="panel-body" id="choices">
+                    
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
